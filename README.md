@@ -36,11 +36,10 @@ Cuda Toolkit 12.8+
 
 Nvidia Nsight Visual Studio
 
-  
+nvcc: Nvidia Cuda Compiler
+
 
 # Run:
-
-Compiler used is nvcc
 
 ` nvcc --version`
 
@@ -55,6 +54,7 @@ Cuda compilation tools, release 12.6, V12.6.68
 Build cuda_12.6.r12.6/compiler.34714021_0
 
 ` nvcc pr_pi_rng_mc_fix.cu -o pr_pi_rng_mc_fix -arch=sm_87`
+
 ` ./pr_pi_rng_mc_fix`
 
 sample output:
